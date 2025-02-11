@@ -592,16 +592,16 @@
       "Power Biasing"
     ],
     [
-      "e7d6570b-cd15-4c69-b340-b9b6e52afd66",
-      "Differential Control"
-    ],
-    [
       "0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b",
       "CAN"
     ],
     [
       "c3da58cd-cab8-4f7e-a189-a7bcb64c8919",
       "Analog"
+    ],
+    [
+      "e51e5548-bed6-415c-b974-a640cc587c0f",
+      "Gyro"
     ]
   ],
   "text_variables": {}
