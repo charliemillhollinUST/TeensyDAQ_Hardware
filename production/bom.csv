@@ -1,5 +1,5 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"5V_3, 5V_2, 5V, B+, CANH, CANL, C_T, D+, D-, E_T, GND_6, GND_5, GND_4, GND_3, GND_2, GND, HALL1, HALL2, I/O_1, I/O_2, P+_2, P+, TP100, TP101, TP110, TP111, VD_1, VD_2",TestPoint_Pad_D1.0mm,28,TestPoint,
+"5V_3, 5V_2, 5V, B+, CANH, CANL, C_T, D+, D-, E_T, GND_6, GND_5, GND_4, GND_3, GND_2, GND, HALL1, HALL2, I/O_1, I/O_2, P+_2, P+, RX, TP100, TP101, TX, VD_1, VD_2",TestPoint_Pad_D1.0mm,28,TestPoint,
 B100,3034_KEY,1,3034,
 "C100, C101, C105, C106, C107, C108, C109",0603,7,10u,
 "C102, C116, C117",0603,3,100n,
