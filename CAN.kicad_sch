@@ -1592,7 +1592,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 201.93 106.68 0)
 			(effects
 				(font
@@ -1678,15 +1678,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/SN65HVD230DR/404367"
 			(at 127 96.52 0)
 			(effects
 				(font
@@ -2095,7 +2086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 125.4252 81.28 0)
 			(effects
 				(font
@@ -2114,15 +2105,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 124.46 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 124.46 77.47 0)
 			(effects
 				(font
@@ -2307,7 +2289,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 71.12 85.09 0)
 			(effects
 				(font
@@ -2373,7 +2355,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 97.79 85.09 0)
 			(effects
 				(font
@@ -2439,7 +2421,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 212.09 93.98 0)
 			(effects
 				(font

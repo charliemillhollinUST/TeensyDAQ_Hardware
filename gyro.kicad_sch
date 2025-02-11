@@ -1850,15 +1850,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
-			(at 156.21 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e6d13514-9f40-4b76-9f50-20313e35f778")
 		)
@@ -2364,7 +2355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.53 82.2452 0)
 			(effects
 				(font
@@ -2383,15 +2374,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.34 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 180.34 81.28 0)
 			(effects
 				(font
@@ -2638,7 +2620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.57 110.1852 0)
 			(effects
 				(font
@@ -2657,15 +2639,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 119.38 109.22 0)
 			(effects
 				(font
@@ -3510,15 +3483,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 135.89 147.32 0)
 			(effects
 				(font

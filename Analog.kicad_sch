@@ -5,6 +5,181 @@
 	(uuid "e916ddd3-4f5d-409c-8845-25a310c260c3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "DRV5032:DRV5032FBDBZR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "DRV5032FBDBZR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DRV5032:DBZ0003A-IPC_A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "DRV5032FBDBZR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DRV5032FBDBZR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DBZ0003A-IPC_A DBZ0003A-IPC_B DBZ0003A-IPC_C DBZ0003A-MFG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DRV5032FBDBZR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 25.4 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -10.16) (xy 25.4 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -522,6 +697,12 @@
 		(uuid "5b3c763f-d074-4268-8424-436ef2cb38c2")
 	)
 	(junction
+		(at 92.71 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f5ee9b2-9dd9-4262-91d2-ef893141e5fa")
+	)
+	(junction
 		(at 106.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -603,6 +784,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 154.94) (xy 129.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134b4a6f-bfb0-4834-87d4-2d5c2006ff4a")
+	)
+	(wire
+		(pts
 			(xy 106.68 57.15) (xy 115.57 57.15)
 		)
 		(stroke
@@ -610,6 +801,16 @@
 			(type default)
 		)
 		(uuid "16b3adfc-59ef-4274-b404-c0e098f8c945")
+	)
+	(wire
+		(pts
+			(xy 129.54 152.4) (xy 125.73 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abc6282-314b-44dc-8e37-fe124a609a20")
 	)
 	(wire
 		(pts
@@ -660,6 +861,16 @@
 			(type default)
 		)
 		(uuid "2855880b-e380-497f-ab01-7be15503acab")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 95.25 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a74b739-c87d-4d6c-999b-867399e58e42")
 	)
 	(wire
 		(pts
@@ -803,6 +1014,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 140.97) (xy 92.71 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51d116eb-ecfd-4974-a5cc-392cc5d27e54")
+	)
+	(wire
+		(pts
 			(xy 43.18 144.78) (xy 52.07 144.78)
 		)
 		(stroke
@@ -930,6 +1151,16 @@
 			(type default)
 		)
 		(uuid "6ac1136d-70e9-4a87-8848-b07863b82291")
+	)
+	(wire
+		(pts
+			(xy 92.71 152.4) (xy 92.71 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f380164-7ef4-4ba1-909d-cf08573d2b7a")
 	)
 	(wire
 		(pts
@@ -1308,6 +1539,18 @@
 		(uuid 2701acac-4599-45d8-bdbd-02e510fa03ba)
 	)
 	(rectangle
+		(start 78.74 128.27)
+		(end 144.78 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41b8afaf-6437-438c-afb5-5ba306a9a00a)
+	)
+	(rectangle
 		(start 151.13 40.64)
 		(end 217.17 77.47)
 		(stroke
@@ -1475,6 +1718,17 @@
 			(justify right)
 		)
 		(uuid "8fdeb22d-5532-415d-bd8c-5a8fff42dba7")
+	)
+	(hierarchical_label "Magnet_u"
+		(shape output)
+		(at 125.73 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e83f007-daac-46e4-b3d9-d765e0a2944a")
 	)
 	(hierarchical_label "Hall_Signal1_u"
 		(shape output)
@@ -1887,6 +2141,79 @@
 		)
 	)
 	(symbol
+		(lib_id "DRV5032:DRV5032FBDBZR")
+		(at 95.25 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22858147-6232-45ff-a5c4-cd9e09723013")
+		(property "Reference" "U104"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DRV5032FBDBZR"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DRV5032:DBZ0003A-IPC_A"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "DRV5032FBDBZR"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "16a65a33-e938-4d15-84f2-64786c6878ec")
+		)
+		(pin "1"
+			(uuid "b119b274-0212-4499-b945-1618dff1d540")
+		)
+		(pin "2"
+			(uuid "1fe98426-dc00-4caf-9add-caec889c992a")
+		)
+		(instances
+			(project ""
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "U104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.07 63.5 180)
 		(unit 1)
@@ -2178,7 +2505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 67.31 0)
 			(effects
 				(font
@@ -2197,15 +2524,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -2297,6 +2615,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f252c59-d109-48fb-91ac-d2137c89ea77")
+		(property "Reference" "#PWR0152"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.71 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "815913d1-9ab3-47db-96a8-7baba7744eb0")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 115.57 105.41 0)
 		(unit 1)
@@ -2324,7 +2707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.5352 109.22 0)
 			(effects
 				(font
@@ -2343,15 +2726,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 115.57 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 115.57 105.41 0)
 			(effects
 				(font
@@ -2403,7 +2777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.9252 109.22 0)
 			(effects
 				(font
@@ -2422,15 +2796,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 187.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 187.96 105.41 0)
 			(effects
 				(font
@@ -2654,6 +3019,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 92.71 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86d3e810-8bee-4a60-9c20-0487b3034220")
+		(property "Reference" "C121"
+			(at 96.52 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 96.52 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 93.6752 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10e9fcab-7a21-43d8-8c49-53f73a38fd08")
+		)
+		(pin "1"
+			(uuid "d4c07277-3b1a-4246-8f95-784a35543076")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 52.07 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2680,7 +3115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 53.0352 154.94 0)
 			(effects
 				(font
@@ -2699,15 +3134,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 52.07 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -2959,7 +3385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 188.9252 67.31 0)
 			(effects
 				(font
@@ -2978,15 +3404,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 187.96 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 187.96 63.5 0)
 			(effects
 				(font
@@ -3139,6 +3556,72 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
 					(reference "R121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6d02524-d5d8-4490-91f9-f8b0f65dc8e2")
+		(property "Reference" "#PWR0154"
+			(at 92.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4424fc45-98b7-42ce-af64-f84bc23339a4")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -3340,6 +3823,72 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
 					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4052ce8-76e0-44cb-adbb-7269e2cd4b26")
+		(property "Reference" "#PWR0153"
+			(at 129.54 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1430fcca-2e0d-4cd4-a6cb-d58798cc0229")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)

@@ -41,6 +41,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 72.39) (xy 166.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1010860b-e151-40df-8d15-cacb6f12478a")
+	)
+	(wire
+		(pts
 			(xy 85.09 109.22) (xy 87.63 109.22)
 		)
 		(stroke
@@ -161,6 +171,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 72.39) (xy 166.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "470de5c0-3397-427c-a527-fe314519704c")
+	)
+	(wire
+		(pts
 			(xy 59.69 69.85) (xy 87.63 69.85)
 		)
 		(stroke
@@ -171,7 +191,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 86.36) (xy 83.82 86.36)
+			(xy 87.63 90.17) (xy 83.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -228,6 +248,16 @@
 			(type default)
 		)
 		(uuid "5598218c-c314-4a84-acd0-020523db847a")
+	)
+	(wire
+		(pts
+			(xy 59.69 74.93) (xy 87.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63780a21-106b-499b-a2a6-f43ebe55a793")
 	)
 	(wire
 		(pts
@@ -298,6 +328,16 @@
 			(type default)
 		)
 		(uuid "6d84ba45-2b69-4696-9e5c-9f984181ecad")
+	)
+	(wire
+		(pts
+			(xy 166.37 161.29) (xy 132.08 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f29018d-b9e0-4b46-9a14-edf755882ade")
 	)
 	(wire
 		(pts
@@ -391,7 +431,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 83.82 111.76)
+			(xy 83.82 90.17) (xy 83.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -461,7 +501,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 88.9) (xy 85.09 109.22)
+			(xy 85.09 92.71) (xy 85.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -498,6 +538,16 @@
 			(type default)
 		)
 		(uuid "bae15bc2-17f8-48db-b7eb-0f2ebc122f6f")
+	)
+	(wire
+		(pts
+			(xy 59.69 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be08e605-3c76-46aa-9a9d-bc46632fbdc3")
 	)
 	(wire
 		(pts
@@ -601,7 +651,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 88.9) (xy 85.09 88.9)
+			(xy 87.63 92.71) (xy 85.09 92.71)
 		)
 		(stroke
 			(width 0)
@@ -867,6 +917,26 @@
 			)
 			(uuid "3c0ebc7b-7a53-4fc8-b05a-cf8dad6f7cfd")
 		)
+		(pin "P2" output
+			(at 59.69 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29fe5f8e-1355-4374-b1fe-d22a928f67c6")
+		)
+		(pin "P1" output
+			(at 59.69 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d3fcd90-01ac-4fb7-be0c-297f99276a41")
+		)
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c"
@@ -936,7 +1006,7 @@
 			(uuid "4c4239af-cad4-41fd-b9c2-1ec1a57ad39a")
 		)
 		(pin "CAN_RXu" output
-			(at 87.63 86.36 180)
+			(at 87.63 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +1016,7 @@
 			(uuid "4b258664-b940-4c6e-823f-7aa607768b1e")
 		)
 		(pin "CAN_TXu" output
-			(at 87.63 88.9 180)
+			(at 87.63 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,6 +1114,36 @@
 				(justify right)
 			)
 			(uuid "720c04e6-a994-4fa2-a0f9-3deb792061c4")
+		)
+		(pin "P1" output
+			(at 87.63 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f728907-2f99-415b-b840-5c7922706d87")
+		)
+		(pin "Magnet_u" output
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "438f44b0-3df8-4cc0-9ea4-1731a451c688")
+		)
+		(pin "P2" output
+			(at 87.63 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "afdf4ea0-e419-4fb5-9707-a7ee70d439bd")
 		)
 		(instances
 			(project "TeensyDAQ_REV0"
@@ -1330,6 +1430,16 @@
 				(justify right)
 			)
 			(uuid "5c11d736-266a-454a-afbc-3644ec933484")
+		)
+		(pin "Magnet_u" output
+			(at 132.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0872805-48bb-45c6-a7d5-77e9e30bb60c")
 		)
 		(instances
 			(project "TeensyDAQ_REV0"

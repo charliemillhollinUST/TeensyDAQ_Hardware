@@ -5,108 +5,6 @@
 	(uuid "138f4639-5532-413e-ad63-373aae699c1b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1784,12 +1682,6 @@
 		(uuid "37e72648-c223-4d8e-bb9c-3b867ac39697")
 	)
 	(junction
-		(at 82.55 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40b53b95-3f05-4db0-9155-5a26e3b5ccfd")
-	)
-	(junction
 		(at 179.07 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1868,12 +1760,6 @@
 		(uuid "bc651720-63df-4a98-b7b7-e77229a5a882")
 	)
 	(junction
-		(at 71.12 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cca60c39-2dea-4917-9724-a97a01cfb81e")
-	)
-	(junction
 		(at 157.48 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1926,12 +1812,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb553197-0aaa-42e2-8eb9-a75faae20801")
-	)
-	(junction
-		(at 33.02 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f638522c-da8d-4ddb-a76f-2cf741331892")
 	)
 	(junction
 		(at 66.04 156.21)
@@ -2145,16 +2025,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 40.64 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e57e340-cfb5-4f76-8b6f-e606f5327bd4")
-	)
-	(wire
-		(pts
 			(xy 53.34 135.89) (xy 53.34 156.21)
 		)
 		(stroke
@@ -2255,16 +2125,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 118.11) (xy 71.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a032a3f-eb4a-4bb4-89dd-175964d73ce9")
-	)
-	(wire
-		(pts
 			(xy 181.61 40.64) (xy 181.61 41.91)
 		)
 		(stroke
@@ -2345,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 35.56) (xy 33.02 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e738ee3-ff11-4421-89b8-33229f422c47")
-	)
-	(wire
-		(pts
 			(xy 53.34 156.21) (xy 66.04 156.21)
 		)
 		(stroke
@@ -2385,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 71.12 119.38)
+			(xy 66.04 119.38) (xy 100.33 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2505,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 118.11) (xy 234.95 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1a3bbc-2af5-4367-af56-ee7bd49b6ac3")
-	)
-	(wire
-		(pts
 			(xy 168.91 132.08) (xy 179.07 132.08)
 		)
 		(stroke
@@ -2545,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 38.1) (xy 33.02 38.1)
+			(xy 30.48 38.1) (xy 40.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2665,16 +2505,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 118.11) (xy 223.52 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a86e420a-357f-4453-8f9d-a474ccb9b736")
-	)
-	(wire
-		(pts
 			(xy 53.34 128.27) (xy 53.34 119.38)
 		)
 		(stroke
@@ -2705,36 +2535,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 100.33 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c58da3-343f-4ec2-98e9-bbfd194e4661")
-	)
-	(wire
-		(pts
-			(xy 257.81 118.11) (xy 257.81 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9b2733d-0796-42e1-b323-97b5b672265e")
-	)
-	(wire
-		(pts
-			(xy 82.55 118.11) (xy 82.55 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce81376-f212-4235-95bc-934781759924")
-	)
-	(wire
-		(pts
 			(xy 191.77 41.91) (xy 194.31 41.91)
 		)
 		(stroke
@@ -2762,16 +2562,6 @@
 			(type default)
 		)
 		(uuid "c542e03b-c1a3-4800-b470-234c8f87accf")
-	)
-	(wire
-		(pts
-			(xy 71.12 119.38) (xy 82.55 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb387ed8-4cc2-4386-86f9-82a2009f7a8a")
 	)
 	(wire
 		(pts
@@ -3171,72 +2961,6 @@
 		(uuid "f3aaf250-332a-4c28-8375-0a51e6339723")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a35bea4-10fc-4ecf-9fd9-4356c4f0950b")
-		(property "Reference" "TP118"
-			(at 91.44 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 91.44 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 82.55 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0adaa5f-bc8a-4e19-b870-c6c14edb126d")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
-					(reference "TP118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 246.38 119.38 0)
 		(unit 1)
@@ -3349,15 +3073,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/texas-instruments/TPS56637RPAR/10715537"
 			(at 118.11 132.08 0)
 			(effects
 				(font
@@ -3566,7 +3281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 233.9848 133.35 0)
 			(effects
 				(font
@@ -3593,15 +3308,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
-			(at 234.95 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4065b7da-f793-422c-a627-ab68b627ef38")
 		)
@@ -3612,72 +3318,6 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
 					(reference "C106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 234.95 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ec64bc1-c70b-4352-abba-1d1148bd8ead")
-		(property "Reference" "TP115"
-			(at 243.84 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 243.84 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 240.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 234.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "157454a9-4423-4e32-a3b0-0e803a837274")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
-					(reference "TP115")
 					(unit 1)
 				)
 			)
@@ -3777,7 +3417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 52.3748 128.27 0)
 			(effects
 				(font
@@ -3796,15 +3436,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 53.34 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
 			(at 53.34 132.08 0)
 			(effects
 				(font
@@ -3856,7 +3487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 245.4148 133.35 0)
 			(effects
 				(font
@@ -3875,15 +3506,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 246.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -4001,7 +3623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 183.1848 128.27 0)
 			(effects
 				(font
@@ -4028,15 +3650,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/kemet/C0805C101K5RACTU/2211649"
-			(at 184.15 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "49a2ff5e-0a95-4255-ad3c-8e7b8d9f4bd9")
 		)
@@ -4047,72 +3660,6 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
 					(reference "C104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 223.52 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "54ee16bc-9756-42fb-8f2f-172b97dba4d8")
-		(property "Reference" "TP114"
-			(at 232.41 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 232.41 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 223.52 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e5ca7a7-31fb-47b4-bb86-9b9022466e3b")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
-					(reference "TP114")
 					(unit 1)
 				)
 			)
@@ -4146,7 +3693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 256.8448 133.35 0)
 			(effects
 				(font
@@ -4165,15 +3712,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
 			(at 257.81 137.16 0)
 			(effects
 				(font
@@ -4291,7 +3829,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 65.0748 128.27 0)
 			(effects
 				(font
@@ -4310,15 +3848,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 66.04 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 66.04 132.08 0)
 			(effects
 				(font
@@ -4370,7 +3899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 268.2748 133.35 0)
 			(effects
 				(font
@@ -4389,15 +3918,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 269.24 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
 			(at 269.24 137.16 0)
 			(effects
 				(font
@@ -4447,7 +3967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 191.77 40.9448 0)
 			(effects
 				(font
@@ -4466,15 +3986,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 187.96 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -4551,15 +4062,6 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/diodes-incorporated/B340-13-F/768768"
-			(at 63.5 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "09548100-0fca-4044-af21-9b9d24811aff")
 		)
@@ -4570,72 +4072,6 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
 					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 33.02 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89e28f2b-fd46-457a-9556-c036bf55686f")
-		(property "Reference" "TP119"
-			(at 41.91 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 41.91 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 33.02 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1414b99-ed00-4e42-a4e3-3d549ce7ec3e")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
-					(reference "TP119")
 					(unit 1)
 				)
 			)
@@ -4935,138 +4371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 71.12 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf5db1aa-bc2f-4546-9a13-a2bb0f4f6878")
-		(property "Reference" "TP117"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 76.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 71.12 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9092095b-0e7b-4b3c-bb29-07196798701a")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
-					(reference "TP117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 257.81 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfc1b69b-7c33-4f54-a2f4-6c697647e0bc")
-		(property "Reference" "TP116"
-			(at 266.7 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 266.7 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 262.89 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 257.81 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "979c3e5f-0a9a-460c-beb0-61deca3a7280")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/91dc7722-8943-479b-9672-11a66c9c8ce6"
-					(reference "TP116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 205.74 157.48 0)
 		(unit 1)
@@ -5160,7 +4464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.9448 128.27 0)
 			(effects
 				(font
@@ -5179,15 +4483,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 41.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
 			(at 41.91 132.08 0)
 			(effects
 				(font
@@ -5258,15 +4553,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/vishay-dale/IHLP4040DZER3R3M01/1220693"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -5386,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 144.78 120.3452 0)
 			(effects
 				(font
@@ -5405,15 +4691,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663"
 			(at 148.59 119.38 0)
 			(effects
 				(font
@@ -5668,7 +4945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 222.5548 133.35 0)
 			(effects
 				(font
@@ -5687,15 +4964,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 223.52 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31B106KBHNNNE/5961251"
 			(at 223.52 137.16 0)
 			(effects
 				(font
