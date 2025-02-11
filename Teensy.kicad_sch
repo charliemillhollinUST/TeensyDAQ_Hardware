@@ -2888,7 +2888,7 @@
 		)
 		(uuid "01bce803-911a-4304-ab69-db649f0423ba")
 	)
-	(hierarchical_label "VDIV2_u"
+	(hierarchical_label "Thermistor3_u"
 		(shape output)
 		(at 179.07 91.44 0)
 		(effects

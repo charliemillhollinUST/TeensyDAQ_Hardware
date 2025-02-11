@@ -1594,17 +1594,6 @@
 		)
 		(uuid "5032bd71-3883-4ee9-9d90-122054b5ab37")
 	)
-	(hierarchical_label "VDIV2+"
-		(shape input)
-		(at 224.79 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50ec6fb8-71df-43ce-adca-4070e50c8740")
-	)
 	(hierarchical_label "Battery_IN-"
 		(shape output)
 		(at 224.79 134.62 180)
@@ -1748,6 +1737,17 @@
 		)
 		(uuid "9d3a3555-5cba-45ba-a310-cc5cf55b6c06")
 	)
+	(hierarchical_label "Thermistor_3"
+		(shape input)
+		(at 224.79 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2f8c9da-6139-46b2-91db-a309e8dc435e")
+	)
 	(hierarchical_label "Hall_Signal2"
 		(shape output)
 		(at 224.79 73.66 180)
@@ -1803,7 +1803,7 @@
 		)
 		(uuid "e78df186-3eef-4021-a6d8-0acb36f23dc8")
 	)
-	(hierarchical_label "VDIV2+"
+	(hierarchical_label "Thermistor_3"
 		(shape input)
 		(at 107.95 128.27 180)
 		(effects
@@ -1834,7 +1834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d186246-9ea2-49ca-a4cf-5b7acc890e60")
-		(property "Reference" "TP122"
+		(property "Reference" "GND103"
 			(at 238.506 100.33 90)
 			(effects
 				(font
@@ -1886,7 +1886,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP122")
+					(reference "GND103")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a9a3a84-4418-40b6-862a-c610d8234961")
-		(property "Reference" "TP123"
+		(property "Reference" "E_T100"
 			(at 238.506 104.14 90)
 			(effects
 				(font
@@ -2020,7 +2020,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP123")
+					(reference "E_T100")
 					(unit 1)
 				)
 			)
@@ -2035,7 +2035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27108208-e2e7-4d63-97a3-854692031c6b")
-		(property "Reference" "TP105"
+		(property "Reference" "CANH100"
 			(at 238.506 62.23 90)
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP105")
+					(reference "CANH100")
 					(unit 1)
 				)
 			)
@@ -2235,7 +2235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d5d58e-f2db-422a-aef6-c40eb828732c")
-		(property "Reference" "TP125"
+		(property "Reference" "I/O_1"
 			(at 238.506 111.76 90)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP125")
+					(reference "I/O_1")
 					(unit 1)
 				)
 			)
@@ -2302,7 +2302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38a926f4-590b-4d6c-b316-57482471379c")
-		(property "Reference" "TP120"
+		(property "Reference" "B+100"
 			(at 238.506 92.71 90)
 			(effects
 				(font
@@ -2354,7 +2354,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP120")
+					(reference "B+100")
 					(unit 1)
 				)
 			)
@@ -2369,7 +2369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38ecc047-0a20-40d2-90f5-66eafc5d48c1")
-		(property "Reference" "TP108"
+		(property "Reference" "H2"
 			(at 238.506 73.66 90)
 			(effects
 				(font
@@ -2421,7 +2421,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP108")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2436,7 +2436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3daea227-38e0-448d-956e-54c67f4ffbec")
-		(property "Reference" "TP102"
+		(property "Reference" "GND102"
 			(at 238.506 50.8 90)
 			(effects
 				(font
@@ -2488,7 +2488,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP102")
+					(reference "GND102")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f9d4a81-fa3c-426f-ae7e-d93c762202aa")
-		(property "Reference" "TP113"
+		(property "Reference" "5V102"
 			(at 238.506 85.09 90)
 			(effects
 				(font
@@ -2555,7 +2555,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP113")
+					(reference "5V102")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48196f09-340a-4d69-8792-1bfc71e05e53")
-		(property "Reference" "TP130"
+		(property "Reference" "P+101"
 			(at 238.506 130.81 90)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP130")
+					(reference "P+101")
 					(unit 1)
 				)
 			)
@@ -2637,7 +2637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f37aee-2589-4423-95a7-bfba12ab28ea")
-		(property "Reference" "TP115"
+		(property "Reference" "GND100"
 			(at 238.506 43.18 90)
 			(effects
 				(font
@@ -2689,7 +2689,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP115")
+					(reference "GND100")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59357a71-7c10-4bf7-82e1-f3339ea06409")
-		(property "Reference" "TP128"
+		(property "Reference" "C_T100"
 			(at 238.506 123.19 90)
 			(effects
 				(font
@@ -2756,7 +2756,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP128")
+					(reference "C_T100")
 					(unit 1)
 				)
 			)
@@ -2771,7 +2771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ea6a79e-eb2d-480d-a87f-1f2f0ebd34d0")
-		(property "Reference" "TP126"
+		(property "Reference" "I/O_2"
 			(at 238.506 115.57 90)
 			(effects
 				(font
@@ -2823,7 +2823,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP126")
+					(reference "I/O_2")
 					(unit 1)
 				)
 			)
@@ -3041,7 +3041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87e24573-18cc-4684-b61f-0e393a50a1a6")
-		(property "Reference" "TP114"
+		(property "Reference" "GND101"
 			(at 238.506 46.99 90)
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP114")
+					(reference "GND101")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93f56af8-18e5-4127-811e-0459f31bae4f")
-		(property "Reference" "TP103"
+		(property "Reference" "H1"
 			(at 238.506 54.61 90)
 			(effects
 				(font
@@ -3226,7 +3226,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP103")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -3374,7 +3374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b73cbf3d-f2c9-494f-a487-bb578bcb4c52")
-		(property "Reference" "TP109"
+		(property "Reference" "5V100"
 			(at 238.506 77.47 90)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP109")
+					(reference "5V100")
 					(unit 1)
 				)
 			)
@@ -3441,7 +3441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9504863-5d0c-4aff-a6ae-839874c143ad")
-		(property "Reference" "TP112"
+		(property "Reference" "5V101"
 			(at 238.506 81.28 90)
 			(effects
 				(font
@@ -3493,7 +3493,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP112")
+					(reference "5V101")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c67338d7-fdd4-45b3-be9b-e23be0d0f011")
-		(property "Reference" "TP124"
+		(property "Reference" "VD_1"
 			(at 238.506 107.95 90)
 			(effects
 				(font
@@ -3627,7 +3627,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP124")
+					(reference "VD_1")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3709,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d207c8da-58bf-40d6-97f2-036c65ad902c")
-		(property "Reference" "TP121"
+		(property "Reference" "P+100"
 			(at 238.506 96.52 90)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP121")
+					(reference "P+100")
 					(unit 1)
 				)
 			)
@@ -3776,7 +3776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d25c60f9-1c16-4468-a354-9a379c55bc92")
-		(property "Reference" "TP131"
+		(property "Reference" "GND105"
 			(at 238.506 134.62 90)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP131")
+					(reference "GND105")
 					(unit 1)
 				)
 			)
@@ -3843,7 +3843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d643643c-6b82-4244-9b67-502d41d1487f")
-		(property "Reference" "TP127"
+		(property "Reference" "3_T100"
 			(at 238.506 119.38 90)
 			(effects
 				(font
@@ -3895,7 +3895,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP127")
+					(reference "3_T100")
 					(unit 1)
 				)
 			)
@@ -3910,7 +3910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e807f9b2-c165-48cd-a29a-bb9d781c1694")
-		(property "Reference" "TP129"
+		(property "Reference" "GND104"
 			(at 238.506 127 90)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP129")
+					(reference "GND104")
 					(unit 1)
 				)
 			)
@@ -3977,7 +3977,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea0f5952-f980-4305-9528-d0d0394e2d28")
-		(property "Reference" "TP106"
+		(property "Reference" "CANL100"
 			(at 238.506 66.04 90)
 			(effects
 				(font
@@ -4029,7 +4029,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP106")
+					(reference "CANL100")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f06acd45-6e95-4fc8-a24e-7be818f40c26")
-		(property "Reference" "TP107"
+		(property "Reference" "D-100"
 			(at 238.506 69.85 90)
 			(effects
 				(font
@@ -4096,7 +4096,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP107")
+					(reference "D-100")
 					(unit 1)
 				)
 			)
@@ -4111,7 +4111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa1a3317-521a-4af5-b36a-c3bbc273145d")
-		(property "Reference" "TP104"
+		(property "Reference" "D+100"
 			(at 238.506 58.42 90)
 			(effects
 				(font
@@ -4163,7 +4163,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/36af939c-a039-4370-9390-49414daba697"
-					(reference "TP104")
+					(reference "D+100")
 					(unit 1)
 				)
 			)

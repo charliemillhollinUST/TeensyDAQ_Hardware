@@ -954,16 +954,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 86.36) (xy 179.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b3ecff-cef5-40de-b000-240d31308ec9")
-	)
-	(wire
-		(pts
 			(xy 43.18 132.08) (xy 43.18 134.62)
 		)
 		(stroke
@@ -1041,16 +1031,6 @@
 			(type default)
 		)
 		(uuid "53ccd26b-76dc-4f14-8bc2-8f4ab96f49db")
-	)
-	(wire
-		(pts
-			(xy 179.07 86.36) (xy 179.07 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b6aeab-c506-4644-9904-5ca62bf9697f")
 	)
 	(wire
 		(pts
@@ -1181,6 +1161,16 @@
 			(type default)
 		)
 		(uuid "7460774e-6421-477c-a4c7-4145fce4c3ab")
+	)
+	(wire
+		(pts
+			(xy 172.72 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c5de35-5e9e-4998-8929-c2e8f14fcf0e")
 	)
 	(wire
 		(pts
@@ -1620,6 +1610,17 @@
 		)
 		(uuid "1838a959-a90f-4385-bc67-49f702c3559d")
 	)
+	(hierarchical_label "Thermistor_3"
+		(shape input)
+		(at 172.72 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b4a9901-8bf6-413f-a750-c566fdda71b6")
+	)
 	(hierarchical_label "Hall_Signal1"
 		(shape input)
 		(at 30.48 44.45 180)
@@ -1741,7 +1742,7 @@
 		)
 		(uuid "a19acd34-4841-4691-8f28-b099bf1074f0")
 	)
-	(hierarchical_label "VDIV2_u"
+	(hierarchical_label "Thermistor3_u"
 		(shape output)
 		(at 194.31 99.06 0)
 		(effects
@@ -1784,17 +1785,6 @@
 			(justify right)
 		)
 		(uuid "ede82dbd-cb15-4746-a13a-9a98d9e18641")
-	)
-	(hierarchical_label "VDIV2+"
-		(shape input)
-		(at 172.72 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f988393b-a34f-4fc9-9ebe-bf9d151c0f31")
 	)
 	(hierarchical_label "Hall_Signal2"
 		(shape input)
@@ -3889,6 +3879,71 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
 					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 179.07 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff22811b-0fd9-4a6f-9225-5193a482b328")
+		(property "Reference" "#PWR0159"
+			(at 179.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 179.07 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdb4eb7b-840b-44e3-8b12-7b88cade9a7b")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)

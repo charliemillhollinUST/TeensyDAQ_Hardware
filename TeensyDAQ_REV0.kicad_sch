@@ -907,16 +907,6 @@
 			)
 			(uuid "6f19cc90-7cc7-486e-b27e-3529c287db17")
 		)
-		(pin "VDIV2+" input
-			(at 59.69 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3c0ebc7b-7a53-4fc8-b05a-cf8dad6f7cfd")
-		)
 		(pin "P2" output
 			(at 59.69 74.93 0)
 			(effects
@@ -936,6 +926,16 @@
 				(justify right)
 			)
 			(uuid "2d3fcd90-01ac-4fb7-be0c-297f99276a41")
+		)
+		(pin "Thermistor_3" input
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0978f8d-b8d0-4a55-851f-67aac218e929")
 		)
 		(instances
 			(project "TeensyDAQ_REV0"
@@ -1075,16 +1075,6 @@
 			)
 			(uuid "246a2d73-e4b0-45b0-817c-6c41092156eb")
 		)
-		(pin "VDIV2_u" output
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dea347b7-0619-4469-8f46-7a9247360795")
-		)
 		(pin "I2C_SDA" output
 			(at 124.46 67.31 0)
 			(effects
@@ -1144,6 +1134,16 @@
 				(justify left)
 			)
 			(uuid "afdf4ea0-e419-4fb5-9707-a7ee70d439bd")
+		)
+		(pin "Thermistor3_u" output
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01b413bf-65cd-41ad-87da-0551ca28c9fd")
 		)
 		(instances
 			(project "TeensyDAQ_REV0"
@@ -1411,26 +1411,6 @@
 			)
 			(uuid "0cf3e94f-5d42-48e4-b80c-66a67773a3cf")
 		)
-		(pin "VDIV2+" input
-			(at 87.63 158.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f3e8d760-8293-425b-b3d3-c04238a308fc")
-		)
-		(pin "VDIV2_u" output
-			(at 132.08 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5c11d736-266a-454a-afbc-3644ec933484")
-		)
 		(pin "Magnet_u" output
 			(at 132.08 161.29 0)
 			(effects
@@ -1440,6 +1420,26 @@
 				(justify right)
 			)
 			(uuid "c0872805-48bb-45c6-a7d5-77e9e30bb60c")
+		)
+		(pin "Thermistor3_u" output
+			(at 132.08 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46afed96-08fb-4534-9605-c48e1dad5ab4")
+		)
+		(pin "Thermistor_3" input
+			(at 87.63 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4fccedd1-7295-4bfb-a8f7-c04006fbe6a1")
 		)
 		(instances
 			(project "TeensyDAQ_REV0"

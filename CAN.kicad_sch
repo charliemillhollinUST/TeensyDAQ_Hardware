@@ -2185,7 +2185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5714e86-7179-4b24-af56-d44e5dbc76d1")
-		(property "Reference" "TP111"
+		(property "Reference" "RX100"
 			(at 74.93 82.55 0)
 			(effects
 				(font
@@ -2236,7 +2236,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b"
-					(reference "TP111")
+					(reference "RX100")
 					(unit 1)
 				)
 			)
@@ -2251,7 +2251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6a11c8a-3516-4437-a63a-03fae57ed5e3")
-		(property "Reference" "TP110"
+		(property "Reference" "TX100"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -2302,7 +2302,7 @@
 		(instances
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b"
-					(reference "TP110")
+					(reference "TX100")
 					(unit 1)
 				)
 			)
