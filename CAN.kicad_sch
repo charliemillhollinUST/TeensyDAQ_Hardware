@@ -1050,16 +1050,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 93.98) (xy 207.01 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585020c8-88c4-4697-acd2-d8b115fa4e49")
-	)
-	(wire
-		(pts
 			(xy 69.85 104.14) (xy 96.52 104.14)
 		)
 		(stroke
@@ -1147,16 +1137,6 @@
 			(type default)
 		)
 		(uuid "7af834f1-6126-4f2f-b24a-aac7bcf61b45")
-	)
-	(wire
-		(pts
-			(xy 207.01 105.41) (xy 207.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1105aa-e939-4219-ab69-5c3d0b68c4be")
 	)
 	(wire
 		(pts
@@ -1560,72 +1540,6 @@
 			(project ""
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 207.01 106.68 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2886a9e9-a7c3-44ff-aa7b-1bcecff76d00")
-		(property "Reference" "TP113"
-			(at 198.12 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.12 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 207.01 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13883ae6-b6ab-428f-adf6-512e8e4eb5fd")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b"
-					(reference "TP113")
 					(unit 1)
 				)
 			)
@@ -2389,72 +2303,6 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b"
 					(reference "TP110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 207.01 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9a3cbdb-0b0e-4458-bebc-60e37d1cce15")
-		(property "Reference" "TP112"
-			(at 215.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 215.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 212.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d08d901-0833-43e6-b5f5-a75d5633a73f")
-		)
-		(instances
-			(project "TeensyDAQ_REV0"
-				(path "/11737956-c422-45b5-a9a0-ee63a853502c/0f2f77fc-00e9-40fa-a5cc-7ba39dc1577b"
-					(reference "TP112")
 					(unit 1)
 				)
 			)
