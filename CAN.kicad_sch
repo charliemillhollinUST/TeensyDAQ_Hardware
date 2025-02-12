@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "ef6a20ec-fd7b-4db9-8520-15e46ba8256f")
 	(paper "A4")
+	(title_block
+		(date "2025-02-11")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -1464,6 +1467,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f2bc0798-33f7-45d4-8501-d6f26b0e54b0")
 		)
@@ -1600,6 +1612,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/texas-instruments/SN65HVD230DR/404367"
+			(at 127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "3f21f45e-885b-4014-a1a3-d193a5491af0")
 		)
@@ -1680,6 +1701,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 207.01 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07120RL/726920"
 			(at 207.01 100.33 0)
 			(effects
 				(font
@@ -1813,6 +1843,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 62.23 91.44 0)
 			(effects
 				(font
@@ -1957,6 +1996,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "598b0210-61d0-41da-a31a-d44f0f0871e8")
 		)
@@ -2019,6 +2067,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
 			(at 124.46 77.47 0)
 			(effects
 				(font
@@ -2094,6 +2151,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eb33bddd-6771-459d-a5b0-b7d9428286e7")
 		)
@@ -2153,6 +2219,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 69.85 91.44 0)
 			(effects
 				(font

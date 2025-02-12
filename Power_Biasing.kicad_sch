@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "138f4639-5532-413e-ad63-373aae699c1b")
 	(paper "A4")
+	(title_block
+		(date "2025-02-11")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
@@ -3183,6 +3186,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/texas-instruments/TPS56637RPAR/10715537"
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "709209a3-9dc0-4cca-8f68-708b7a1b6ce1")
 		)
@@ -3340,6 +3352,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b4f2c97-547e-4d2b-9135-f24ef1410e5b")
 		)
@@ -3402,6 +3423,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 234.95 137.16 0)
 			(effects
 				(font
@@ -3546,6 +3576,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
+			(at 53.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "133a19e4-5d22-4ca8-8696-35a3ca725a19")
 		)
@@ -3608,6 +3647,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 246.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 246.38 137.16 0)
 			(effects
 				(font
@@ -3752,6 +3800,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM1885C1H101JA01D/586921"
+			(at 184.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49a2ff5e-0a95-4255-ad3c-8e7b8d9f4bd9")
 		)
@@ -3814,6 +3871,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 257.81 137.16 0)
 			(effects
 				(font
@@ -4025,6 +4091,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a9a7d07-3296-4527-b5cc-e3904d97a82f")
 		)
@@ -4087,6 +4162,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 269.24 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 269.24 137.16 0)
 			(effects
 				(font
@@ -4163,6 +4247,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0aa096ea-f003-42af-b1aa-3722c80e0edc")
 		)
@@ -4223,6 +4316,15 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+			(at 63.5 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/diodes-incorporated/B340-13-F/768768"
 			(at 63.5 38.1 0)
 			(effects
 				(font
@@ -4358,6 +4460,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/texas-instruments/INA226AIDGSR/2687236"
 			(at 160.02 58.42 0)
 			(effects
 				(font
@@ -4524,6 +4635,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RL1210FR-070R1L/2827679"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44e7e2da-bb00-49b7-b5f7-acc3a94df2b9")
 		)
@@ -4660,6 +4780,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
+			(at 41.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "51f65437-a0c4-4bdc-9191-8cdd59b00de2")
 		)
@@ -4722,6 +4851,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 160.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/vishay-dale/IHLP4040DZER3R3M01/1220693"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -4800,6 +4938,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0773K2L/727374"
+			(at 205.74 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e1bb66b3-24c7-4973-8890-a175906bb7ab")
 		)
@@ -4860,6 +5007,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
 			(at 148.59 119.38 0)
 			(effects
 				(font
@@ -4938,6 +5094,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 205.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "43904731-8fce-422c-82e8-c4b77198766d")
 		)
@@ -4997,6 +5162,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 194.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0720KL/727040"
 			(at 194.31 123.19 0)
 			(effects
 				(font
@@ -5133,6 +5307,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 223.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106KA73D/9867922"
 			(at 223.52 137.16 0)
 			(effects
 				(font

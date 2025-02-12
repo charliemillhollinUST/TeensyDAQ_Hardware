@@ -4,6 +4,9 @@
 	(generator_version "8.0")
 	(uuid "e916ddd3-4f5d-409c-8845-25a310c260c3")
 	(paper "A4")
+	(title_block
+		(date "2025-02-11")
+	)
 	(lib_symbols
 		(symbol "DRV5032:DRV5032FBDBZR"
 			(pin_names
@@ -437,6 +440,139 @@
 				)
 			)
 		)
+		(symbol "Diode:SMAJ5.0A"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ5.0A"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "unidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMAJ5.0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ5.0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers hide)
@@ -667,6 +803,12 @@
 		(uuid "09116365-479b-4996-a587-7a9d3ae1c28c")
 	)
 	(junction
+		(at 187.96 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b452c6e-fc8c-45a8-be83-e9a9311c17bd")
+	)
+	(junction
 		(at 43.18 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -677,6 +819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b709c47-0c4f-45a4-836b-fd409dab7f30")
+	)
+	(junction
+		(at 195.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a594fda-5660-48e5-bd28-21fc76c7c5b8")
 	)
 	(junction
 		(at 43.18 99.06)
@@ -695,6 +843,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b3c763f-d074-4268-8424-436ef2cb38c2")
+	)
+	(junction
+		(at 187.96 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e825b48-fe78-4dfe-8162-ca29937cb7e5")
 	)
 	(junction
 		(at 92.71 144.78)
@@ -721,6 +875,12 @@
 		(uuid "821fb9ea-d0ab-43b1-9c1c-46d8eaae5e21")
 	)
 	(junction
+		(at 121.92 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83726f2e-0fad-4681-b543-9a72758ee478")
+	)
+	(junction
 		(at 187.96 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -733,10 +893,22 @@
 		(uuid "9b773e2a-98eb-4816-a283-06c4b52ed305")
 	)
 	(junction
+		(at 115.57 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f0b55b0-3bbb-4ce4-b2ff-a02eb25c9ebd")
+	)
+	(junction
 		(at 43.18 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a435e316-3574-4f3a-93c4-4bc85b7a3d55")
+	)
+	(junction
+		(at 58.42 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0336754-8c8e-479d-80f9-678206f15631")
 	)
 	(junction
 		(at 179.07 99.06)
@@ -749,6 +921,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c510946a-02ff-47d1-9710-28185ebf874b")
+	)
+	(junction
+		(at 52.07 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9216f8d-5cd3-45c0-a711-37789248882f")
+	)
+	(junction
+		(at 195.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e634f76b-a1a3-4ae4-9cfc-a3f68a499343")
+	)
+	(junction
+		(at 115.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebcc0fde-8113-4103-a934-db456c12a19e")
+	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2126798-2d66-48f9-8dc0-5515f59a6042")
 	)
 	(junction
 		(at 115.57 99.06)
@@ -854,6 +1050,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 109.22) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2699ac9a-630b-4eba-ae0f-1cff991b9831")
+	)
+	(wire
+		(pts
 			(xy 172.72 110.49) (xy 179.07 110.49)
 		)
 		(stroke
@@ -914,6 +1120,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 99.06) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f91554e-4d66-425c-9eee-cbb5631e2bf5")
+	)
+	(wire
+		(pts
 			(xy 43.18 99.06) (xy 43.18 101.6)
 		)
 		(stroke
@@ -964,6 +1180,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 67.31) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4278921e-7675-4a48-8dcb-cc89129bd10e")
+	)
+	(wire
+		(pts
 			(xy 43.18 53.34) (xy 43.18 55.88)
 		)
 		(stroke
@@ -984,6 +1210,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 99.06) (xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4787f72d-26c6-4715-a9e7-f2030a7ec88d")
+	)
+	(wire
+		(pts
 			(xy 30.48 44.45) (xy 43.18 44.45)
 		)
 		(stroke
@@ -991,6 +1227,26 @@
 			(type default)
 		)
 		(uuid "4b49555a-b810-4dba-bebd-117618a74f03")
+	)
+	(wire
+		(pts
+			(xy 58.42 144.78) (xy 58.42 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5bb6f6-c74f-48ad-bc81-938bd7a8ba01")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 198.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc8fb1c-a142-4011-89bc-d181bc1da2ba")
 	)
 	(wire
 		(pts
@@ -1031,6 +1287,16 @@
 			(type default)
 		)
 		(uuid "53ccd26b-76dc-4f14-8bc2-8f4ab96f49db")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53efb933-b41e-4586-a8d8-d0e1e24797f3")
 	)
 	(wire
 		(pts
@@ -1084,6 +1350,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 68.58) (xy 187.96 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d39e4f-1495-4a49-b43e-8dbf97ad29eb")
+	)
+	(wire
+		(pts
 			(xy 100.33 57.15) (xy 106.68 57.15)
 		)
 		(stroke
@@ -1091,6 +1367,16 @@
 			(type default)
 		)
 		(uuid "613f159f-dc87-4cae-9e04-403f759a2656")
+	)
+	(wire
+		(pts
+			(xy 58.42 144.78) (xy 59.69 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631fe2c0-5da3-442c-b082-e3daaa4e0e52")
 	)
 	(wire
 		(pts
@@ -1134,6 +1420,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 67.31) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f12ce3c-bb70-4acd-b440-d0bb5efe5538")
+	)
+	(wire
+		(pts
 			(xy 92.71 152.4) (xy 92.71 154.94)
 		)
 		(stroke
@@ -1144,13 +1440,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 57.15) (xy 194.31 57.15)
+			(xy 187.96 57.15) (xy 195.58 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7313e7bb-a6d2-4a88-b6a8-065f7f4618c9")
+	)
+	(wire
+		(pts
+			(xy 195.58 57.15) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740ccad8-08db-414e-9048-02a259a83ff6")
 	)
 	(wire
 		(pts
@@ -1184,6 +1490,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 99.06) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8409a5-559b-461d-b2fa-9c6ad6c6a321")
+	)
+	(wire
+		(pts
+			(xy 195.58 109.22) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9be1c8-7f7d-44a8-bbc2-9e007458e778")
+	)
+	(wire
+		(pts
 			(xy 106.68 96.52) (xy 106.68 99.06)
 		)
 		(stroke
@@ -1204,6 +1530,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 99.06) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887f4e8d-8e3d-4bd5-9ca6-f1a293aee198")
+	)
+	(wire
+		(pts
 			(xy 187.96 57.15) (xy 187.96 59.69)
 		)
 		(stroke
@@ -1214,13 +1550,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 99.06) (xy 53.34 99.06)
+			(xy 121.92 57.15) (xy 121.92 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a188a90-1068-422d-a085-04c406375c68")
+		(uuid "8a1ded13-29df-4f71-8795-16d0b64adcd5")
+	)
+	(wire
+		(pts
+			(xy 187.96 110.49) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6cce45-bb80-4367-a093-84882759f68c")
 	)
 	(wire
 		(pts
@@ -1294,6 +1640,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 57.15) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c4da9db-04b6-4a0b-9c1f-b6cc4b81e06b")
+	)
+	(wire
+		(pts
 			(xy 187.96 99.06) (xy 187.96 101.6)
 		)
 		(stroke
@@ -1311,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "9d9930c8-4b41-4e30-a881-e227cde9f7a6")
+	)
+	(wire
+		(pts
+			(xy 121.92 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e56e2e7-3bbe-4d84-aacf-0b74e7377233")
 	)
 	(wire
 		(pts
@@ -1341,6 +1707,16 @@
 			(type default)
 		)
 		(uuid "b4041765-592e-4559-b2f9-5c84e80967f7")
+	)
+	(wire
+		(pts
+			(xy 58.42 156.21) (xy 52.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b670e0e1-2855-4b72-a7eb-b925d9b2f69e")
 	)
 	(wire
 		(pts
@@ -1384,6 +1760,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 154.94) (xy 58.42 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01d4f19-b690-4388-bfcd-fa773af87cc1")
+	)
+	(wire
+		(pts
 			(xy 43.18 109.22) (xy 43.18 111.76)
 		)
 		(stroke
@@ -1414,7 +1800,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 194.31 99.06)
+			(xy 187.96 99.06) (xy 195.58 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1434,13 +1820,23 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 99.06) (xy 121.92 99.06)
+			(xy 115.57 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6e6aacd-e684-4e72-823e-2772163f7797")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 121.92 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabb32c0-14f6-4c61-bb8b-1faaca595507")
 	)
 	(wire
 		(pts
@@ -1590,7 +1986,7 @@
 	)
 	(hierarchical_label "VMeas_BATu"
 		(shape output)
-		(at 58.42 144.78 0)
+		(at 59.69 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1601,7 +1997,7 @@
 	)
 	(hierarchical_label "VDIV1_u"
 		(shape output)
-		(at 194.31 57.15 0)
+		(at 199.39 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1689,7 +2085,7 @@
 	)
 	(hierarchical_label "CVT_Thermistor_u"
 		(shape output)
-		(at 121.92 99.06 0)
+		(at 125.73 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1700,7 +2096,7 @@
 	)
 	(hierarchical_label "Engine_Thermistor_u"
 		(shape output)
-		(at 121.92 57.15 0)
+		(at 123.19 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1744,7 +2140,7 @@
 	)
 	(hierarchical_label "Thermistor3_u"
 		(shape output)
-		(at 194.31 99.06 0)
+		(at 198.12 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1804,7 +2200,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "02d81b03-fa43-4a90-9fad-5d32b8baf502")
 		(property "Reference" "R126"
 			(at 181.356 105.41 90)
@@ -1931,13 +2327,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 195.58 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05612815-a24e-472f-9ddb-3089e93c8473")
+		(property "Reference" "D111"
+			(at 196.85 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 196.85 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 190.5 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 195.58 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ5-0A/762250"
+			(at 195.58 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89688f9e-466b-4c1a-bec1-93d1d2d5d52a")
+		)
+		(pin "1"
+			(uuid "f44302e5-e6e0-4b87-bf94-1130bc0a8ad3")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "D111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 106.68 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0d45d717-62a1-4d8d-adac-fdaf33355ae6")
 		(property "Reference" "R120"
 			(at 108.966 63.5 90)
@@ -2070,7 +2544,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "18e8daaa-224f-4463-a0b3-2e9468255725")
 		(property "Reference" "R125"
 			(at 181.356 92.71 90)
@@ -2185,6 +2659,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/texas-instruments/DRV5032FBDBZR/7173718"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "16a65a33-e938-4d15-84f2-64786c6878ec")
 		)
@@ -2210,7 +2693,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2cb29ae3-fdee-47ec-9a0c-0a89fe0b151a")
 		(property "Reference" "R124"
 			(at 181.356 63.5 90)
@@ -2475,10 +2958,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "58fce9ca-b7fd-4cbc-a248-c8b4cddc62f4")
 		(property "Reference" "C110"
-			(at 119.38 62.2299 0)
+			(at 113.284 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +2969,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 119.38 64.7699 0)
+			(at 113.284 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,6 +2996,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -2581,6 +3072,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889"
 			(at 106.68 50.8 0)
 			(effects
 				(font
@@ -2677,10 +3177,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "618d8690-7a25-4697-a41d-aaefedd1baab")
 		(property "Reference" "C111"
-			(at 119.38 104.1399 0)
+			(at 113.03 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +3188,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 119.38 106.6799 0)
+			(at 113.03 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,6 +3223,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0036ab78-0511-44f0-96c8-045e1bc429cd")
 		)
@@ -2740,6 +3248,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 121.92 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6adc371e-bb33-4943-a1b5-f9299269ba74")
+		(property "Reference" "D113"
+			(at 123.19 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 123.19 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ5-0A/762250"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c9e6b82-43e6-49b9-bd68-16fca81cfb7e")
+		)
+		(pin "1"
+			(uuid "6b8ddbe3-5e30-4078-a966-dd18db0fca0a")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "D113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 187.96 105.41 0)
 		(unit 1)
@@ -2747,10 +3333,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d3ff005-6905-4fe4-956a-a0b2591010b6")
 		(property "Reference" "C113"
-			(at 191.77 104.1399 0)
+			(at 185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +3344,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 191.77 106.6799 0)
+			(at 185.42 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,6 +3379,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 187.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ddd9e1fd-9745-4f6b-a08e-a1869f041b53")
 		)
@@ -2816,7 +3410,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6fc5a70d-6801-4273-9684-3f36bf7d6be9")
 		(property "Reference" "R122"
 			(at 108.966 105.41 90)
@@ -3062,6 +3656,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10e9fcab-7a21-43d8-8c49-53f73a38fd08")
 		)
@@ -3078,6 +3681,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 58.42 151.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "879eeec0-fa67-4641-9753-bcb37eb0d445")
+		(property "Reference" "D115"
+			(at 59.69 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 59.69 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 53.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ5-0A/762250"
+			(at 58.42 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af5172eb-9fa7-49fc-96ae-5cc04afbefc7")
+		)
+		(pin "1"
+			(uuid "e43da6d7-cbfc-42b3-b86c-85aaabfc1d39")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "D115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 52.07 151.13 0)
 		(unit 1)
@@ -3085,10 +3766,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97609840-b47f-40f2-a5c0-c7dc3dac01a3")
 		(property "Reference" "C115"
-			(at 55.88 149.8599 0)
+			(at 49.53 158.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,7 +3777,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 55.88 152.3999 0)
+			(at 49.53 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3132,6 +3812,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 52.07 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a42eba2-88d4-4244-ad43-36d766e4d54a")
 		)
@@ -3154,7 +3843,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9ff8a3c0-f8fd-45be-bb22-84f6fc5d8251")
 		(property "Reference" "R123"
 			(at 181.356 50.8 90)
@@ -3258,6 +3947,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0715KL/726953"
 			(at 43.18 105.41 0)
 			(effects
 				(font
@@ -3402,6 +4100,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/murata-electronics/GCJ188R71E104KA12D/7363221"
+			(at 187.96 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ffc65722-5639-42ec-a018-391f67ba1d1a")
 		)
@@ -3469,6 +4176,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 43.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d33274d-864c-40e4-b36c-ec1dd157d982")
 		)
@@ -3479,6 +4195,84 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
 					(reference "R113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 195.58 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d234a3f9-28c0-45d7-ae9e-3ae4e9031aa2")
+		(property "Reference" "D112"
+			(at 196.85 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 196.85 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 195.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ5-0A/762250"
+			(at 195.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a84233d-381b-4d7a-a437-55280e6f2a01")
+		)
+		(pin "1"
+			(uuid "31fc0848-644b-4520-a49c-d8e23f1b909c")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "D112")
 					(unit 1)
 				)
 			)
@@ -3528,6 +4322,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100KL/726889"
 			(at 106.68 92.71 0)
 			(effects
 				(font
@@ -3669,6 +4472,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
+			(at 43.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b69cbf79-7ff5-42bc-a093-6601500c676e")
 		)
@@ -3736,6 +4548,15 @@
 				(hide yes)
 			)
 		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-073KL/727119"
+			(at 43.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "76996aae-ed33-459f-8c49-8a1fcff74c94")
 		)
@@ -3795,6 +4616,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 43.18 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880"
 			(at 43.18 138.43 0)
 			(effects
 				(font
@@ -3879,6 +4709,84 @@
 			(project "TeensyDAQ_REV0"
 				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
 					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ5.0A")
+		(at 123.19 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc3bb699-09de-4c3f-96e6-8f3164207857")
+		(property "Reference" "D110"
+			(at 124.46 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ5.0A"
+			(at 124.46 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 123.19 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/littelfuse-inc/SMAJ5-0A/762250"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0951b812-d0a3-4616-b2d6-81903f4aa067")
+		)
+		(pin "1"
+			(uuid "e9721a50-dd8a-40c2-8317-b770f243eeee")
+		)
+		(instances
+			(project "TeensyDAQ_REV0"
+				(path "/11737956-c422-45b5-a9a0-ee63a853502c/c3da58cd-cab8-4f7e-a189-a7bcb64c8919"
+					(reference "D110")
 					(unit 1)
 				)
 			)
@@ -4059,6 +4967,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 43.18 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY LINK" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0715KL/726953"
 			(at 43.18 62.23 0)
 			(effects
 				(font

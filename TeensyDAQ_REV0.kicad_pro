@@ -57,10 +57,6 @@
         "clearance|160325199|116370001|2333caba-e00b-4891-900d-5d6965ba81a4|94177134-9113-4c10-8cb4-00759efdadfd",
         "clearance|160825198|116370001|2333caba-e00b-4891-900d-5d6965ba81a4|635d1853-3b93-4db0-9c40-f640743b1b27",
         "clearance|161325200|116370001|2333caba-e00b-4891-900d-5d6965ba81a4|8d88cdbf-1d4f-4bf2-a391-41b63c5c7215",
-        "silk_over_copper|159300000|70228650|5e45aa42-8bc9-4066-a885-41728cd969f2|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|161228650|70800000|c3a7c731-cf4c-42d1-af13-d236c0ced24f|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|162171350|65600000|5bafc840-6348-4fe9-81c8-add3bc3303a8|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|163064798|65703918|24d62d00-9bcc-4b17-a0b7-ffe4d23fddeb|00000000-0000-0000-0000-000000000000",
         "solder_mask_bridge|159375000|66100000|d3a4de7d-b84c-4b17-971d-94a45d8d64bb|6d4d7893-71bc-440b-9692-7241746386e6",
         "solder_mask_bridge|159375000|66600000|6d4d7893-71bc-440b-9692-7241746386e6|b7b819d0-bc47-4e89-bf3e-8b90c0c55d4b",
         "solder_mask_bridge|159375000|67100000|b7b819d0-bc47-4e89-bf3e-8b90c0c55d4b|168c61e0-59a7-4268-af55-b36ae7236e69",
@@ -598,6 +594,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "DIGIKEY LINK",
+          "name": "DIGIKEY LINK",
+          "show": true
         }
       ],
       "filter_string": "",
