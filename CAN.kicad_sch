@@ -1374,6 +1374,7 @@
 	(hierarchical_label "CANL"
 		(shape output)
 		(at 215.9 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1385,6 +1386,7 @@
 	(hierarchical_label "CAN_TXu"
 		(shape output)
 		(at 86.36 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1396,6 +1398,7 @@
 	(hierarchical_label "CAN_RXu"
 		(shape output)
 		(at 60.96 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,6 +1410,7 @@
 	(hierarchical_label "CANH"
 		(shape output)
 		(at 215.9 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

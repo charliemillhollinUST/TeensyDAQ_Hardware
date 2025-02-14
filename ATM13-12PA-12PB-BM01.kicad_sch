@@ -1588,6 +1588,7 @@
 	(hierarchical_label "Power_OUT+"
 		(shape output)
 		(at 133.35 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1599,6 +1600,7 @@
 	(hierarchical_label "Battery_IN+"
 		(shape output)
 		(at 233.68 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1610,6 +1612,7 @@
 	(hierarchical_label "Engine_Thermistor+"
 		(shape input)
 		(at 133.35 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1621,6 +1624,7 @@
 	(hierarchical_label "USB_D+"
 		(shape output)
 		(at 50.8 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1632,6 +1636,7 @@
 	(hierarchical_label "P2"
 		(shape output)
 		(at 133.35 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1643,6 +1648,7 @@
 	(hierarchical_label "Analog_GND"
 		(shape input)
 		(at 233.68 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1654,6 +1660,7 @@
 	(hierarchical_label "Hall_Signal2"
 		(shape output)
 		(at 50.8 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1665,6 +1672,7 @@
 	(hierarchical_label "CANL"
 		(shape output)
 		(at 50.8 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,6 +1684,7 @@
 	(hierarchical_label "Analog_GND"
 		(shape input)
 		(at 133.35 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,6 +1696,7 @@
 	(hierarchical_label "Power_OUT+"
 		(shape output)
 		(at 233.68 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1698,6 +1708,7 @@
 	(hierarchical_label "USB_D+"
 		(shape output)
 		(at 133.35 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1709,6 +1720,7 @@
 	(hierarchical_label "Power_OUT+"
 		(shape output)
 		(at 233.68 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1720,6 +1732,7 @@
 	(hierarchical_label "CANL"
 		(shape output)
 		(at 233.68 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,6 +1744,7 @@
 	(hierarchical_label "P1"
 		(shape output)
 		(at 133.35 120.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,6 +1756,7 @@
 	(hierarchical_label "Power_OUT+"
 		(shape output)
 		(at 133.35 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1753,6 +1768,7 @@
 	(hierarchical_label "Battery_IN-"
 		(shape output)
 		(at 233.68 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1764,6 +1780,7 @@
 	(hierarchical_label "Analog_GND"
 		(shape input)
 		(at 233.68 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1775,6 +1792,7 @@
 	(hierarchical_label "Analog_GND"
 		(shape input)
 		(at 133.35 135.89 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1786,6 +1804,7 @@
 	(hierarchical_label "Hall_Signal1"
 		(shape output)
 		(at 50.8 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1797,6 +1816,7 @@
 	(hierarchical_label "VDIV1+"
 		(shape input)
 		(at 133.35 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1808,6 +1828,7 @@
 	(hierarchical_label "Battery_IN-"
 		(shape output)
 		(at 133.35 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1819,6 +1840,7 @@
 	(hierarchical_label "Battery_IN+"
 		(shape output)
 		(at 133.35 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1830,6 +1852,7 @@
 	(hierarchical_label "CANH"
 		(shape output)
 		(at 233.68 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1841,6 +1864,7 @@
 	(hierarchical_label "USB_D-"
 		(shape output)
 		(at 133.35 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1852,6 +1876,7 @@
 	(hierarchical_label "Hall_Signal2"
 		(shape output)
 		(at 133.35 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1863,6 +1888,7 @@
 	(hierarchical_label "Hall_Signal1"
 		(shape output)
 		(at 133.35 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1874,6 +1900,7 @@
 	(hierarchical_label "CANL"
 		(shape output)
 		(at 133.35 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1885,6 +1912,7 @@
 	(hierarchical_label "USB_D-"
 		(shape output)
 		(at 50.8 67.31 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1896,6 +1924,7 @@
 	(hierarchical_label "CVT_Thermistor+"
 		(shape input)
 		(at 133.35 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1907,6 +1936,7 @@
 	(hierarchical_label "CANH"
 		(shape output)
 		(at 50.8 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1918,6 +1948,7 @@
 	(hierarchical_label "Thermistor_3"
 		(shape input)
 		(at 133.35 128.27 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1929,6 +1960,7 @@
 	(hierarchical_label "CANH"
 		(shape output)
 		(at 133.35 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -1782,6 +1782,7 @@
 	(hierarchical_label "I2C_SCL"
 		(shape input)
 		(at 111.76 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1793,6 +1794,7 @@
 	(hierarchical_label "I2C_SDA"
 		(shape input)
 		(at 111.76 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
