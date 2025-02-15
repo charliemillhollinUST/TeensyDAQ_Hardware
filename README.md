@@ -1,4 +1,4 @@
-This project correlates with the TeensyDAQ repository, but strictly for hardware.
+![PCB](images/board_projection.jpg)
 
 The schematic and PCB were created in KiCad.
 
