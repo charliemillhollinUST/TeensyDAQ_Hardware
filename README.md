@@ -1,4 +1,4 @@
-![PCB](images/board_projection.jpg)
+![PCB](images/board_projection.png)
 
 The schematic and PCB were created in KiCad.
 
